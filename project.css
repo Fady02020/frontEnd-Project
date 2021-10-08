@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.main-bg{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-size: cover;
+    background-color: #F7F9FE;
+    padding-bottom: 50px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.scnd-bg{
+background-color: rgb(39, 106, 168) ;
+}
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.navFlex2{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+position: static;
+height: 70px;
+width: 100%;
+}
+.navFlex2 li{
+    width: calc(70%/8);
+
+}
+.text1{
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 6vh;
+
+}
+.text2{
+    font-size: 1.6rem;
+    color: #FF5363;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 7vh;
+    padding-bottom: 0;
+    margin: 0;
+    font-weight: 800;
+}
+.text3{
+    font-size: 2.3rem;
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 7vh;
+}
+.text4{
+    letter-spacing: 0.04em;
+    color: #465675;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-style: normal;
+}
+@media screen and (max-width: 1000px) {
+    .navFlex2{
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: static;
+        height: 100%;
+        width: 50%;
+        background-color: white;
+        padding-bottom: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .navFlex2 li{
+        padding-top: 5px;
+    }
+}
+
+.navbar-light{
+    color: #50658e;}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #50658e;}
+.icon1, .icon2, .icon3{
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    width: 1em;
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+.icon1{
+    color: #FF5363;
+}
+.browncolor{
+    color: #7d92bb;
+}
+
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 900;
+}
