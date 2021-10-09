@@ -6,7 +6,6 @@ body {
     outline: none;
     scroll-behavior: smooth;
 }
-
 .main-bg{
     background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
     background-size: cover;
@@ -36,7 +35,48 @@ width: 100%;
 }
 .navFlex2 li{
     width: calc(70%/8);
-
+}
+#AboutCorona{
+    padding-top: 50px;
+}
+#AboutCorona h5{
+    color: #2a81ea;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#AboutCorona p span {
+font-weight: bold;
+}
+#AboutCorona p {
+    color: #3d4b69;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-align: left;
+}
+#AboutCorona ul{
+    border: 1px solid #e7e8ff;
+    list-style: none;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+}
+#AboutCorona li {
+    text-align: left;
+    border-bottom: 1px solid #e7e8ff;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: #465675;
+    font-size: 20px;
+}
+#AboutCorona ul a li {
+    display: flex;
+    justify-content: space-between;
+    color: #2a81ea;
+    font-weight: normal;
+    font-size: 16px;
+}
+#AboutCorona ul a{
+text-decoration: none;
 }
 .text1{
     font-size: 3.8rem;
@@ -45,7 +85,6 @@ width: 100%;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding-top: 6vh;
-
 }
 .text2{
     font-size: 1.6rem;
@@ -71,6 +110,14 @@ width: 100%;
     font-weight: 900;
     font-style: normal;
 }
+.text5{
+    color: #50658e;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
 @media screen and (max-width: 1000px) {
     .navFlex2{
         padding-left: 5px;
@@ -87,15 +134,14 @@ width: 100%;
         padding-left: 0;
     }
     .navFlex2 li{
-        padding-top: 5px;
+        padding-top: 5px !important;
     }
 }
-
 .navbar-light{
     color: #50658e;}
 .navbar-light .navbar-nav .nav-link.active{
     color: #50658e;}
-.icon1, .icon2, .icon3{
+.icon1, .icon2, .icon3, .icon4{
     display: inline-block;
     font-size: inherit;
     height: 1em;
@@ -111,9 +157,6 @@ width: 100%;
 .browncolor{
     color: #7d92bb;
 }
-
-
-
 h2 {
     display: block;
     font-size: 1.5em;
@@ -122,4 +165,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: 900;
+}
+ul{
+    padding-left: 0;
 }
