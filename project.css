@@ -169,6 +169,80 @@ text-decoration: none;
     border-radius: 5px;
     margin: 0 auto 50px;
 }
+#Symptoms{
+    padding: 80px 80px ;
+}
+#Symptoms h5{
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+#Symptoms h3{
+    color: #2a81ea;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+#Symptoms h2{
+    color: #50658e;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#Symptoms p{
+    color: #3d4b69;
+    margin-bottom: 60px;
+    line-height: 1.5em;
+}
+#Symptoms .box2{
+    height: 200px;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 15%);
+    position: relative;
+    border-bottom: 3px solid #fff;
+    border-radius: 5px;
+    margin: 0 auto 100px;
+}
+#Symptoms .box2 p{
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+#Symptoms .box2 p span{
+    font-weight: bold;
+}
+#Symptoms img{
+    width: 80px;
+    position: absolute;
+    top: -20%;
+    right: 9%;}
+#Symptoms .warnFlex{
+display: flex;
+flex-direction: row;
+}
+#Symptoms .warnFlex svg{
+width: 10%;
+}
+#Symptoms .warnFlex p{
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-style: italic;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 0;
+    width: 70%;
+}
+#Symptoms .warnFlex a{
+    padding-top: 12px;
+    width: 20%;
+}
+#Symptoms .warnFlex p span{
+    color: #2a81ea;
+    font-weight: bold;
+    font-style: normal;
+}
 @media screen and (max-width: 1000px) {
     .navFlex2{
         padding-left: 5px !important;
@@ -187,12 +261,37 @@ text-decoration: none;
     .navFlex2 li{
         padding-top: 5px !important;
     }
+    #Symptoms .warnFlex{
+        display: flex;
+        height: 250px;
+        justify-content: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+        }
+        #Symptoms .warnFlex svg{
+        display: inline;
+        }
+        #Symptoms .warnFlex p{
+            color: #3d4b69;
+            line-height: 1.5em;
+            font-style: italic;
+            text-align: left;
+            padding-left: 10px;
+            margin-bottom: 0;
+            display: inline;
+        }
+        #Symptoms .warnFlex a{
+            width: 70%;
+        }
+        #Symptoms .box2{
+            font-size: 2vw ;
+        }
 }
 .navbar-light{
     color: #50658e;}
 .navbar-light .navbar-nav .nav-link.active{
     color: #50658e;}
-.icon1, .icon2, .icon3, .icon4{
+.icon1, .icon2, .icon3, .icon4, .icon5{
     display: inline-block;
     font-size: inherit;
     height: 1em;
@@ -204,6 +303,11 @@ text-decoration: none;
 }
 .icon1{
     color: #FF5363;
+}
+.icon5{
+    height: 3em;
+    width: 3em;
+    color: #2a81ea;
 }
 .main-bg nav h2{
     padding-left: 20%;
@@ -232,6 +336,4 @@ h3{
 ul{
     padding-left: 0;
 }
-ol{
-    background: white;
-}
+
