@@ -3,6 +3,8 @@ $(document).ready(function () {
         $("#navbar").toggleClass("scnd-bg"); 
         $("#Spread").toggleClass("scnd-bg"); 
         $("#AboutCorona").toggleClass("scnd-bg"); 
+        $("#Symptoms").toggleClass("scnd-bg"); 
+        $("#Prevention").toggleClass("scnd-bg"); 
     });
 });
 $(document).ready(function(){       
