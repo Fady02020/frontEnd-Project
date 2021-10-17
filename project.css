@@ -86,7 +86,7 @@ padding-right: 10%;
 }
 .text6{
     color: #2a81ea;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: bold;
@@ -192,7 +192,8 @@ text-decoration: none;
     width: 80px;
     position: absolute;
     top: -20%;
-    right: 9%;}
+    right: 9%;
+}
 #Symptoms .warnFlex{
 display: flex;
 flex-direction: row;
@@ -263,6 +264,74 @@ padding-top: 20px;
 #Prevention #hands .col-12 .row p{
     color: #3d4b69;
 }
+#Treatment{
+    padding: 100px 100px ;
+    background-color: #2766bb;
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Treatment h5{
+    color: #73e3ff;
+}
+#Treatment h2{
+    color: #ffff;
+}
+#Treatment .parag{
+    color: #ced4ff;
+    line-height: 1.5rem;
+}
+#Treatment p span{
+    color: #ffff;
+}
+#Treatment #darker_container{
+    background-color: #1b47a1;
+}
+#Treatment #darker_container .inner_content{
+    color: #ffff;
+    padding: 20px;
+}
+#dodont{
+    background-color: #f7f9fe;
+    padding: 80px 80px;
+    text-align: center;
+}
+#dodont img{
+    width: 100%;
+}
+#dodont p{
+    color: #2a81ea;
+    font-weight: bold;
+    font-size: 14px;
+}
+#dodont .gpOfImgs{
+    padding-top: 90px;
+}
+#dodont .gpOfImgs .pad{
+    padding-top: 10px;
+}
+#dodont .gpOfImgs .smallImgs img{
+    width: 80px;
+    height: 84px;
+    border: 2px solid #2a81ea;
+    background-color: #fff;
+}
+#dodont .gpOfImgs .smallImgs svg{
+position: absolute;
+}
+#dodont .gpOfImgs .smallLeftImgs{
+    text-align: end;
+}
+#dodont .gpOfImgs .smallLeftImgs p span{
+padding-left: 20%;
+}
+#dodont .gpOfImgs .smallRightImgs{
+    text-align: start;
+}
+#dodont .gpOfImgs .smallRightImgs p span{
+    padding-right: 20%;
+}
 @media screen and (max-width: 1000px) {
     .navFlex2{
         padding-left: 5px !important;
@@ -311,7 +380,7 @@ padding-top: 20px;
     color: #50658e;}
 .navbar-light .navbar-nav .nav-link.active{
     color: #50658e;}
-.icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6,.icon7,.icon8{
     display: inline-block;
     font-size: inherit;
     height: 1em;
@@ -331,6 +400,18 @@ padding-top: 20px;
 }
 .icon6{
     color: rgb(82, 163, 82);
+}
+.icon7{
+    color: #f86168;
+    background-color: white;
+    font-size: 19px;
+    left: 24.5%;
+}
+.icon8{
+    color: #3dca93;
+    background-color: white;
+    font-size: 19px;
+    left: 73.9%;
 }
 .main-bg nav h2{
     padding-left: 20%;
