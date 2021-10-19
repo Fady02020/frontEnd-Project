@@ -309,7 +309,7 @@ padding-top: 20px;
     padding-top: 90px;
 }
 #dodont .gpOfImgs .pad{
-    padding-top: 10px;
+    padding-top: 40px;
 }
 #dodont .gpOfImgs .smallImgs img{
     width: 80px;
@@ -317,21 +317,22 @@ padding-top: 20px;
     border: 2px solid #2a81ea;
     background-color: #fff;
 }
-#dodont .gpOfImgs .smallImgs svg{
-position: absolute;
+
+#dodont .gpOfImgs .smallImgs .box3{
+    width: 100px;
+    position: relative;
 }
-#dodont .gpOfImgs .smallLeftImgs{
-    text-align: end;
+#dodont .gpOfImgs .smallLeftImgs svg{
+    position: absolute;
+    left: 20%;
+    top: -1%;
 }
-#dodont .gpOfImgs .smallLeftImgs p span{
-padding-left: 20%;
+#dodont .gpOfImgs .smallRightImgs svg{
+    position: absolute;
+    right: 15%;
+    top: -1%;
 }
-#dodont .gpOfImgs .smallRightImgs{
-    text-align: start;
-}
-#dodont .gpOfImgs .smallRightImgs p span{
-    padding-right: 20%;
-}
+
 @media screen and (max-width: 1000px) {
     .navFlex2{
         padding-left: 5px !important;
@@ -376,6 +377,9 @@ padding-left: 20%;
             font-size: 2vw ;
         }
 }
+@media screen and (max-width: 767px) {
+
+}
 .navbar-light{
     color: #50658e;}
 .navbar-light .navbar-nav .nav-link.active{
@@ -404,14 +408,12 @@ padding-left: 20%;
 .icon7{
     color: #f86168;
     background-color: white;
-    font-size: 19px;
-    left: 24.5%;
+    font-size: 21px;
 }
 .icon8{
     color: #3dca93;
     background-color: white;
-    font-size: 19px;
-    left: 73.9%;
+    font-size: 21px;
 }
 .main-bg nav h2{
     padding-left: 20%;
