@@ -44,6 +44,9 @@ padding-right: 10%;
 .navbar{
     padding: 0;
 }
+#navbar ul a:hover{
+color: #2a81ea;
+}
 .text1{
     font-size: 3.8rem;
     font-weight: 900;
@@ -358,6 +361,11 @@ margin: 0;
 .button-style{
     width: 100%;
     background-color: #f7f9fe;
+    height: 55px;
+}
+.button-style-onclick{
+    width: 100%;
+    background-color: #ffff;
     height: 55px;
 }
 .font-button{

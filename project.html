@@ -40,20 +40,20 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <!-- content of navbar  -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 navFlex2">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home" id="nav1">Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#AboutCorona">About
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#AboutCorona" id="nav2">About
                                 Corona</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" id="nav3"
                                 href="#Symptoms">Symptoms</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" id="nav4"
                                 href="#Prevention">Prevention</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" id="nav5"
                                 href="#Treatment">Treatment</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#News">News</a>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#FAQ" id="nav6">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#News" id="nav7">News</a>
                         </li>
                         <li class="nav-item"><a class="btn btn-primary rounded-pill" href="#dodont" role="button">Do &
                                 Don't</a></li>
@@ -1008,20 +1008,20 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-8 infoboxout text-start">
-                    <div id="1stDiv">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div id="1stDiv" class="collapse show">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
                                         href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne"> What is a novel coronavirus?
+                                        aria-expanded="true" aria-controls="collapseOne"> What is a novel coronavirus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne">
                                     <div class="accordion-body font-style">
                                         <p>
                                             On February 11, 2020 the World Health Organization announced an official
@@ -1053,7 +1053,7 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
                                         href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo">Why is the disease being
@@ -1061,12 +1061,11 @@
                                         coronavirus disease 2019,
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
                                     <div class="accordion-body font-style">
                                         <p>
                                             On February 11, 2020 the World Health Organization announced an official
@@ -1103,19 +1102,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
                                         href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseFour">How can people help stop
                                         stigma
                                         related to COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
                                 <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    aria-labelledby="headingThree">
                                     <div class="accordion-body font-style">
                                         <p>
                                             People can fight stigma and help, not hurt, others by providing social
@@ -1133,18 +1132,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
                                         href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                         aria-expanded="false" aria-controls="collapseFour">Why might someone blame or
                                         avoid individuals and groups?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour">
                                     <div class="accordion-body font-style">
                                         <p>
                                             People in the U.S. may be worried or anxious about friends and relatives who
@@ -1180,20 +1179,20 @@
                         </div>
                     </div>
                     <div id="2ndDiv" class="div-hide">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne">What is the source of the
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse2One"
+                                        aria-expanded="true" aria-controls="collapseOne">What is the source of the
                                         virus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse2One" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Coronaviruses are a large family of viruses. Some cause illness in people,
@@ -1220,17 +1219,16 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse2Two"
                                         aria-expanded="false" aria-controls="collapseTwo">How does the virus spread?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse2Two" class="accordion-collapse collapse" aria-labelledby="headingTwo">
                                     <div class="accordion-body font-style">
                                         <p>
                                             This virus was first detected in Wuhan City, Hubei Province, China. The
@@ -1262,18 +1260,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseFour">Can someone who has had
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2Three" aria-expanded="false"
+                                        aria-controls="collapseFour">Can someone who has had
                                         COVID-19 spread the illness to others?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapse2Three" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree">
                                     <div class="accordion-body font-style">
                                         <p>
                                             The virus that causes COVID-19 is <a href="#">spreading from
@@ -1327,18 +1326,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse2Four"
                                         aria-expanded="false" aria-controls="collapseFour">Will warm weather stop the
                                         outbreak of COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse2Four" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour">
                                     <div class="accordion-body font-style">
                                         <p>
                                             It is not yet known whether weather and temperature impact the spread of
@@ -1361,21 +1360,20 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFive">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFour">Can the virus that causes
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3Five"
+                                        aria-expanded="false" aria-controls="collapse3Five">Can the virus that causes
                                         COVID-19 be
                                         spread through food,
                                         including
                                         refrigerated or frozen food?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse3Five" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Coronaviruses are generally thought to be spread from
@@ -1422,21 +1420,21 @@
                         </div>
                     </div>
                     <div id="3rdDiv" class="div-hide">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne">What can I do to protect
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3One"
+                                        aria-expanded="true" aria-controls="collapseOne">What can I do to protect
                                         myself and prevent the spread of
                                         disease?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse3One" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne">
                                     <div class="accordion-body font-style">
                                         <h3>Protection measures for everyone</h3>
                                         <p>
@@ -1461,19 +1459,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">What should I do if I had
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3Two"
+                                        aria-expanded="false" aria-controls="collapse3Two">What should I do if I had
                                         close contact with someone who has
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse3Two" class="accordion-collapse collapse" aria-labelledby="headingTwo">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Household members, intimate partners, and caregivers in a nonhealthcare
@@ -1494,18 +1491,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseFour">Who is at higher risk for
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3Three" aria-expanded="false"
+                                        aria-controls="collapse3Three">Who is at higher risk for
                                         serious illness from COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapse3Three" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             <span>Older adults and people of any age who have serious underlying medical
@@ -1520,19 +1517,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">What should people at higher
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3Four"
+                                        aria-expanded="false" aria-controls="collapse3Four">What should people at higher
                                         risk of serious illness with
                                         COVID-19 do?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse3Four" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             If you are at higher risk of getting very sick from COVID-19, you should:
@@ -1562,18 +1558,17 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFive">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFour">Should I wear a mask to
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3Five"
+                                        aria-expanded="false" aria-controls="collapse3Five">Should I wear a mask to
                                         protect myself?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse3Five" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Only wear a mask if you are ill with COVID-19 symptoms (especially coughing)
@@ -1609,20 +1604,19 @@
                         </div>
                     </div>
                     <div id="4thDiv" class="div-hide">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne">What are the symptoms of
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse4One"
+                                        aria-expanded="true" aria-controls="collapse4One">What are the symptoms of
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse4One" class="accordion-collapse collapse show">
                                     <div class="accordion-body font-style">
                                         <p>
                                             The most common symptoms of COVID-19 are fever, tiredness, and dry cough.
@@ -1650,18 +1644,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">Should I be tested for
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse4Two"
+                                        aria-expanded="false" aria-controls="collapse4Two">Should I be tested for
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse4Two" class="accordion-collapse collapse"
+                                    aria-labelledby="heading4Two">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Not everyone needs to be tested for COVID-19. For information about testing,
@@ -1672,18 +1666,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseFour">>Where can I get tested for
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4Three" aria-expanded="false"
+                                        aria-controls="collapse4Four">Where can I get tested for
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapse4Three" class="accordion-collapse collapse"
+                                    aria-labelledby="heading4Three">
                                     <div class="accordion-body font-style">
                                         <p>
                                             The process and locations for testing vary from place to place. Contact your
@@ -1705,19 +1700,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">Can a person test negative
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse4Four"
+                                        aria-expanded="false" aria-controls="collapse4Four">Can a person test negative
                                         and later test positive for
                                         COVID-19?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse4Four" class="accordion-collapse collapse"
+                                    aria-labelledby="heading4Four">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Using the CDC-developed diagnostic test, a negative result means that the
@@ -1738,20 +1733,20 @@
                         </div>
                     </div>
                     <div id="5thDiv" class="div-hide">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne">What should I do if there is
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5One"
+                                        aria-expanded="true" aria-controls="collapse5One">What should I do if there is
                                         an outbreak in my community?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse5One" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading5One">
                                     <div class="accordion-body font-style">
                                         <p>
                                             During an outbreak, stay calm and put your preparedness plan to work. Follow
@@ -1764,19 +1759,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">How do I prepare my children
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5Two"
+                                        aria-expanded="false" aria-controls="collapse5Two">How do I prepare my children
                                         in case of COVID-19 outbreak in
                                         our community?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse5Two" class="accordion-collapse collapse"
+                                    aria-labelledby="heading5Two">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Outbreaks can be stressful for adults and children. Talk with your children
@@ -1794,19 +1789,20 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseFour">What steps should parents
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5Three" aria-expanded="false"
+                                        aria-controls="collapse5Four">What steps should parents
                                         take to protect children during a
                                         community outbreak?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapse5Three" class="accordion-collapse collapse"
+                                    aria-labelledby="heading5Three">
                                     <div class="accordion-body font-style">
                                         <p>
                                             This is a new virus and we are still learning about it, but so far, there
@@ -1840,19 +1836,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">Will schools be dismissed if
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5Four"
+                                        aria-expanded="false" aria-controls="collapse5Four">Will schools be dismissed if
                                         there is an outbreak in my
                                         community?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse5Four" class="accordion-collapse collapse"
+                                    aria-labelledby="heading5Four">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Depending on the situation, public health officials may recommend community
@@ -1874,21 +1870,21 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFive">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFive">Can the virus that causes
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5Five"
+                                        aria-expanded="false" aria-controls="collapse5Five">Can the virus that causes
                                         COVID-19 be spread through food,
                                         including
                                         refrigerated or
                                         frozen food?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse5Five" class="accordion-collapse collapse"
+                                    aria-labelledby="heading5Five">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Coronaviruses are generally thought to be spread from person-to-person
@@ -1930,18 +1926,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingSix">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                        aria-expanded="false" aria-controls="collapseSix">Should I go to work if there
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5Six"
+                                        aria-expanded="false" aria-controls="collapse5Six">Should I go to work if there
                                         is an outbreak in my community?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse5Six" class="accordion-collapse collapse"
+                                    aria-labelledby="heading5Six">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Follow the advice of your local health officials. Stay home if you can. Talk
@@ -1966,21 +1962,21 @@
                         </div>
                     </div>
                     <div id="6thDiv" class="div-hide">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion">
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="false" aria-controls="collapseOne">COVID-19 virus can be
+                                <p class="accordion-header">
+                                    <a class="text-start btn font-button btn-transparent button-style-onclick padding-botton bg-white-onclick"
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6One"
+                                        aria-expanded="true" aria-controls="collapse6One">COVID-19 virus can be
                                         transmitted in areas with hot and humid
                                         climates?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-minus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse6One" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading6One">
                                     <div class="accordion-body font-style">
                                         <p>
                                             From the evidence so far, the COVID-19 virus can be transmitted in ALL
@@ -2003,18 +1999,17 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">Cold weather and snow CANNOT
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6Two"
+                                        aria-expanded="false" aria-controls="collapse6Two">Cold weather and snow CANNOT
                                         kill the new coronavirus
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse6Two" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             There is no reason to believe that cold weather can kill the new coronavirus
@@ -2034,18 +2029,18 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingThree">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseFour">Taking a hot bath does not
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6Three" aria-expanded="false"
+                                        aria-controls="collapse6Four">Taking a hot bath does not
                                         prevent the new coronavirus disease
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapse6Three" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Taking a hot bath will not prevent you from catching COVID-19. Your normal
@@ -2066,19 +2061,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFour">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">The new coronavirus CANNOT be
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6Four"
+                                        aria-expanded="false" aria-controls="collapse6Four">The new coronavirus CANNOT
+                                        be
                                         transmitted through mosquito
                                         bites.
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse6Four" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             To date there has been no information nor evidence to suggest that the new
@@ -2099,18 +2094,17 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingFive">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFive">Are hand dryers effective in
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6Five"
+                                        aria-expanded="false" aria-controls="collapse6Five">Are hand dryers effective in
                                         killing the new coronavirus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse6Five" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             No. Hand dryers are not effective in killing the 2019-nCoV. To protect
@@ -2128,18 +2122,17 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingSix">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                        aria-expanded="false" aria-controls="collapseSix">Can an ultraviolet
+                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6Six"
+                                        aria-expanded="false" aria-controls="collapse6Six">Can an ultraviolet
                                         disinfection lamp kill the new coronavirus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapse6Six" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             UV lamps should not be used to sterilize hands or other areas of skin as UV
@@ -2150,22 +2143,22 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingSeven">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                        aria-expanded="false" aria-controls="collapseSeven">How effective are thermal
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6Seven" aria-expanded="false"
+                                        aria-controls="collapse6Seven">How effective are thermal
                                         scanners in detecting people
                                         infected
                                         with
                                         the new
                                         coronavirus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseSeven" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div id="collapse6Seven" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             Thermal scanners are effective in detecting people who have developed a
@@ -2185,19 +2178,19 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <p class="accordion-header" id="panelsStayOpen-headingEight">
+                                <p class="accordion-header">
                                     <a class="text-start btn font-button btn-transparent button-style padding-botton bg-white-onclick"
-                                        href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapseEight"
-                                        aria-expanded="false" aria-controls="collapseEight">Do vaccines against
+                                        href="#" role="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6Eight" aria-expanded="false"
+                                        aria-controls="collapse6Eight">Do vaccines against
                                         pneumonia protect you against the new
                                         coronavirus?
                                         <span class="float-end rounded-circle bg-white icon-resize text-center">
-                                            <i class="fas fa-plus pt-2"></i>
+                                            <i class="icon-plus fas fa-plus pt-2"></i>
                                         </span>
                                     </a>
                                 </p>
-                                <div id="collapseEight" class="accordion-collapse collapse"
-                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                <div id="collapse6Eight" class="accordion-collapse collapse">
                                     <div class="accordion-body font-style">
                                         <p>
                                             No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus
@@ -2238,7 +2231,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-3 col-7">
                             <div class="box4">
-                                <img src="http://frontend.projects-amit-learning.com/images/blog-a.jpg"
+                                <img class="rounded-2" src="http://frontend.projects-amit-learning.com/images/blog-a.jpg"
                                     alt="man from home">
                                 <h3>Caring for someone at home</h3>
                                 <p>
@@ -2250,7 +2243,7 @@
                         </div>
                         <div class="col-lg-3 col-7">
                             <div class="box4">
-                                <img src="http://frontend.projects-amit-learning.com/images/blog-b.jpg"
+                                <img class="rounded-2" src="http://frontend.projects-amit-learning.com/images/blog-b.jpg"
                                     alt="womaln cleaning">
                                 <h3>15 ways to keep safe and healthy</h3>
                                 <p>
@@ -2262,7 +2255,7 @@
                         </div>
                         <div class="col-lg-3 col-7">
                             <div class="box4">
-                                <img src="http://frontend.projects-amit-learning.com/images/blog-c.jpg"
+                                <img class="rounded-2" src="http://frontend.projects-amit-learning.com/images/blog-c.jpg"
                                     alt="coughing person">
                                 <h3>If You Think You Are Sick</h3>
                                 <p>
