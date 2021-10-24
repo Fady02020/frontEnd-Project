@@ -5,8 +5,74 @@ $(document).ready(function () {
         $("#AboutCorona").toggleClass("scnd-bg");
         $("#Symptoms").toggleClass("scnd-bg");
         $("#Prevention").toggleClass("scnd-bg");
+        $("#Treatment").toggleClass("scnd-bg");
+        $("#dodont").toggleClass("scnd-bg");
+        $("#FAQ").toggleClass("scnd-bg");
+        $("#news").toggleClass("scnd-bg");
+        $("#footer").toggleClass("scnd-bg");
     });
-
+    $("#nav1").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav2").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav3").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav4").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav5").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav6").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav7").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav8").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    $("#nav9").click(function () {
+        if ($('#tgl-btn').attr('aria-expanded') == 'true') {
+            $('').myfunction();
+        }
+    });
+    (function ($) {
+        $.fn.myfunction = function () {
+            $('#tgl-btn').attr('aria-expanded', 'false');
+            $('#tgl-btn').toggleClass("collapsed");
+            $('#navbarSupportedContent').toggleClass("show");
+            $("#navbar").toggleClass("scnd-bg");
+            $("#Spread").toggleClass("scnd-bg");
+            $("#AboutCorona").toggleClass("scnd-bg");
+            $("#Symptoms").toggleClass("scnd-bg");
+            $("#Prevention").toggleClass("scnd-bg");
+            $("#Treatment").toggleClass("scnd-bg");
+            $("#dodont").toggleClass("scnd-bg");
+            $("#FAQ").toggleClass("scnd-bg");
+            $("#news").toggleClass("scnd-bg");
+            $("#footer").toggleClass("scnd-bg");
+        };
+    })(jQuery);
 
     var scroll_pos = 0;
     $(document).scroll(function () {
@@ -17,11 +83,13 @@ $(document).ready(function () {
                     $("nav").addClass("shadow");
                 });
             });
+            $("#goUp").css("display", "block");
         }
         if (scroll_pos == 0) {
             $("nav").addClass("bg-transparent", 700);
             $("nav").removeClass("shadow");
             $("nav").removeClass("bg-white");
+            $("#goUp").css("display", "none");
         }
     });
 
@@ -113,34 +181,33 @@ $(document).ready(function () {
         $(this).css("border-color", "#2a81ea");
     });
 
-    // 2nd div position
+    // about corona div
     var position = $("#AboutCorona").position();
     var top = position.top;
-    // 3rd div poisition
-    var position3 = $("#Spread").position();
+    // spread div
+    var position2 = $("#Spread").position();
+    var top2 = position2.top;
+    // symptomps div
+    var position3 = $("#Symptoms").position();
     var top3 = position3.top;
-    // 4th div poistion
-    var position4 = $("#Symptoms").position();
+    // prevention div
+    var position4 = $("#Prevention").position();
     var top4 = position4.top;
-    // 5th div poistion
-    var position5 = $("#Prevention").position();
+    // treatment div
+    var position5 = $("#Treatment").position();
     var top5 = position5.top;
-    // 6th div poistion
-    var position6 = $("#Treatment").position();
+    // do & don't div
+    var position6 = $("#dodont").position();
     var top6 = position6.top;
-    // 7th div position
-    var position7 = $("#dodont").position();
+    // FAQ div
+    var position7 = $("#FAQ").position();
     var top7 = position7.top;
-    // 8th div position
-    var position8 = $("#FAQ").position();
+    // news div
+    var position8 = $("#news").position();
     var top8 = position8.top;
-    // 9th div position
-    var position9 = $("#news").position();
+    // footer div
+    var position9 = $("#footer").position();
     var top9 = position9.top;
-    // 10th div position
-    var position10 = $("#footer").position();
-    var top10 = position10.top;
-
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
         if (scroll_pos < top) {
@@ -150,42 +217,51 @@ $(document).ready(function () {
             $("#nav1").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top && scroll_pos < top3) {
+        if (scroll_pos >= top && scroll_pos < top2) {
             $("#nav2").css("color", "#2a81ea");
         }
         else {
             $("#nav2").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top4 && scroll_pos < top5) {
+        if (scroll_pos >= top3 && scroll_pos < top4) {
             $("#nav3").css("color", "#2a81ea");
         }
         else {
             $("#nav3").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top5 && scroll_pos < top6) {
+        if (scroll_pos >= top4 && scroll_pos < top5) {
             $("#nav4").css("color", "#2a81ea");
         }
         else {
             $("#nav4").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top6 && scroll_pos < top7) {
+        if (scroll_pos >= top5 && scroll_pos < top6) {
             $("#nav5").css("color", "#2a81ea");
         }
         else {
             $("#nav5").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top8 && scroll_pos < top9) {
+        if (scroll_pos >= top6 && scroll_pos < top7) {
+            $("#nav8").css("background", "#50658e");
+            $("#nav8").css("color", "#ffff");
+        }
+        else {
+            $("#nav8").css("background", "#2a81ea");
+            $("#nav8").css("color", "#ffff");
+        }
+
+        if (scroll_pos >= top7 && scroll_pos < top8) {
             $("#nav6").css("color", "#2a81ea");
         }
         else {
             $("#nav6").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top9 && scroll_pos < top10) {
+        if (scroll_pos >= top8 && scroll_pos < top9) {
             $("#nav7").css("color", "#2a81ea");
         }
         else {

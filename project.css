@@ -6,6 +6,7 @@ body {
     outline: none;
     scroll-behavior: smooth;
 }
+/* the header and navbar */
 .main-bg{
     background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
     background-size: cover;
@@ -15,6 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
  .scnd-bg{
     background-color: #476bb4 !important;
  }
@@ -25,21 +27,24 @@ body {
     align-items: center;
 }
 .navFlex .logo{
-    width: 45%;
+    width: 25%;
 }
 .navFlex2{
 display: flex;
 flex-direction: row;
-justify-content: flex-end;
+justify-content: space-between;
 align-items: center;
 position: static;
 height: 70px;
 width: 100%;
-padding-right: 10%;
+padding-right: 20%;
+padding-left: 20%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
 }
-.navFlex2 li{
-    width: calc(90%/8);
-    font-size: 15px;
+
+.navFlex2 li a{
+    font-size: 14px;
 }
 .navbar{
     padding: 0;
@@ -47,59 +52,7 @@ padding-right: 10%;
 #navbar ul a:hover{
 color: #2a81ea;
 }
-.text1{
-    font-size: 3.8rem;
-    font-weight: 900;
-    color: #50658e;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    padding-top: 6vh;
-}
-.text2{
-    font-size: 1.6rem;
-    color: #FF5363;
-    font-family: 'Oswald', sans-serif;
-    padding-top: 7vh;
-    padding-bottom: 0;
-    margin: 0;
-    font-weight: 800;
-}
-.text3{
-    font-size: 2.3rem;
-    color: #50658e;
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 7vh;
-}
-.text4{
-    letter-spacing: 0.04em;
-    color: #465675;
-    font-size: 1.8rem;
-    font-weight: 900;
-    font-style: normal;
-}
-.text5{
-    color: #50658e;
-    font-size: 35px;
-    font-weight: 900;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-.text6{
-    color: #2a81ea;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.text7{
-    color: #50658e;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
+/* about corona duv  */
 #AboutCorona{
     padding: 80px 80px;
 }
@@ -135,6 +88,7 @@ font-weight: bold;
 #AboutCorona ul a{
 text-decoration: none;
 }
+/* spread div  */
 .spread-bg{
     background-color: #F7F9FE;
     padding: 80px 80px ;
@@ -162,6 +116,7 @@ text-decoration: none;
     border-radius: 5px;
     margin: 0 auto 50px;
 }
+/* symptoms div  */
 #Symptoms{
     padding: 80px 80px ;
 }
@@ -177,7 +132,6 @@ text-decoration: none;
     line-height: 1.5em;
 }
 #Symptoms .box2{
-    height: 200px;
     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 15%);
     position: relative;
     border-bottom: 3px solid #fff;
@@ -222,7 +176,7 @@ width: 10%;
     font-weight: bold;
     font-style: normal;
 }
-
+/* prevention div  */
 #Prevention{
     background-color: #F7F9FE;
     padding: 80px 80px ;
@@ -267,6 +221,7 @@ padding-top: 20px;
 #Prevention #hands .col-12 .row p{
     color: #3d4b69;
 }
+/* treatment div  */
 #Treatment{
     padding: 100px 100px ;
     background-color: #2766bb;
@@ -295,6 +250,7 @@ padding-top: 20px;
     color: #ffff;
     padding: 20px;
 }
+/* do & don't div  */
 #dodont{
     background-color: #f7f9fe;
     padding: 80px 80px;
@@ -335,6 +291,7 @@ padding-top: 20px;
     right: 15%;
     top: -1%;
 }
+/* FAQ div  */
 #FAQ{
     padding: 80px 80px;
     text-align: center;
@@ -407,6 +364,7 @@ color: #2a81ea;
     color: #2a81ea;
     border-color: #2a81ea;
 }
+/* news div  */
 #news{
     padding: 80px 80px;
     text-align: center;
@@ -423,6 +381,7 @@ color: #2a81ea;
     border-radius: 5px;
     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
 }
+/* footer div  */
 #footer{
     padding: 80px 80px;
     background-color: #151c2e;
@@ -476,8 +435,28 @@ color: #2a81ea;
     padding-bottom: 50px;
     border-bottom: 1px solid rgba(247, 248, 255, 0.1);
 }
-
-@media screen and (max-width: 1000px) {
+/* go uo button  */
+#goUp{
+    display: none;
+    position: fixed;
+    padding: 2px;
+    right: 2.5%;
+    bottom: 3.5%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #2b56f5;
+    color: white;
+    border-radius: 50%;
+}
+#goUp .svg-inline--fa{
+    vertical-align: -0.125em;
+    font-size: 10px;
+    
+}
+/* media query for navbar  */
+@media screen and (max-width: 990px) {
     .navFlex2{
         padding-left: 5px !important;
         display: flex;
@@ -516,9 +495,6 @@ color: #2a81ea;
         }
         #Symptoms .warnFlex a{
             width: 70%;
-        }
-        #Symptoms .box2{
-            font-size: 2vw ;
         }
 }
 .navbar-light{
@@ -566,9 +542,7 @@ color: #2a81ea;
     font-size: 19px;
 
 }
-.main-bg nav h2{
-    padding-left: 20%;
-}
+
 .browncolor{
     color: #7d92bb;
 }
@@ -596,5 +570,58 @@ h3{
 }
 ul{
     padding-left: 0;
+}
+.text1{
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 6vh;
+}
+.text2{
+    font-size: 1.6rem;
+    color: #FF5363;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 7vh;
+    padding-bottom: 0;
+    margin: 0;
+    font-weight: 800;
+}
+.text3{
+    font-size: 2.3rem;
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 7vh;
+}
+.text4{
+    letter-spacing: 0.04em;
+    color: #465675;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-style: normal;
+}
+.text5{
+    color: #50658e;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.text6{
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text7{
+    color: #50658e;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
