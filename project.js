@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // changes background color when button clicked 
     $("#tgl-btn").click(function () {
         $("#navbar").toggleClass("scnd-bg");
         $("#Spread").toggleClass("scnd-bg");
@@ -11,6 +12,7 @@ $(document).ready(function () {
         $("#news").toggleClass("scnd-bg");
         $("#footer").toggleClass("scnd-bg");
     });
+    // closes side bar when button is closed 
     $("#nav1").click(function () {
         if ($('#tgl-btn').attr('aria-expanded') == 'true') {
             $('').myfunction();
@@ -74,6 +76,7 @@ $(document).ready(function () {
         };
     })(jQuery);
 
+    // changes navbar background color and go up button dissappers 
     var scroll_pos = 0;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
@@ -83,25 +86,26 @@ $(document).ready(function () {
                     $("nav").addClass("shadow");
                 });
             });
-            $("#goUp").css("display", "block");
+            $("#goUp").show(500);
         }
         if (scroll_pos == 0) {
             $("nav").addClass("bg-transparent", 700);
             $("nav").removeClass("shadow");
             $("nav").removeClass("bg-white");
-            $("#goUp").css("display", "none");
+            $("#goUp").hide(500);
         }
     });
-
+    // toggles plus icon with minus icon 
     $("a.font-button").click(function (e) {
         e.preventDefault();
         $(this).find("i.icon-plus").toggleClass("fa-minus fa-plus");
     });
+    // toggles color od the FAQ buttons when they are clicked 
     $("p.accordion-header").click(function (e) {
         e.preventDefault();
         $(this).find("a.font-button").toggleClass("button-style-onclick button-style");
     });
-
+    // shows and hides FAQ info when each button is clicked 
     $("#btn1").click(function (e) {
         e.preventDefault();
         $("#2ndDiv").hide();
@@ -181,6 +185,8 @@ $(document).ready(function () {
         $(this).css("border-color", "#2a81ea");
     });
 
+    // highlightes the navbor buttons when we are hovering on their div 
+
     // about corona div
     var position = $("#AboutCorona").position();
     var top = position.top;
@@ -210,14 +216,14 @@ $(document).ready(function () {
     var top9 = position9.top;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
-        if (scroll_pos < top) {
+        if (scroll_pos < top-50) {
             $("#nav1").css("color", "#2a81ea");
         }
         else {
             $("#nav1").css("color", "#50658e");
         }
 
-        if (scroll_pos >= top && scroll_pos < top2) {
+        if (scroll_pos >= top-50 && scroll_pos < top2) {
             $("#nav2").css("color", "#2a81ea");
         }
         else {

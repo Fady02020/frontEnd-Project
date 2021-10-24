@@ -50,7 +50,7 @@ font-weight: bold;
     padding: 0;
 }
 #navbar ul a:hover{
-color: #2a81ea;
+color: #2a81ea !important;
 }
 /* about corona duv  */
 #AboutCorona{
@@ -464,7 +464,7 @@ color: #2a81ea;
         justify-content: flex-start;
         align-items: flex-start;
         position: static;
-        height: 100%;
+        height: 100vh;
         width: 50%;
         background-color: white;
         padding-bottom: 20px;
@@ -472,7 +472,7 @@ color: #2a81ea;
         padding-left: 0;
     }
     .navFlex2 li{
-        padding-top: 5px !important;
+        padding-top: 14% !important;
     }
     #Symptoms .warnFlex{
         display: flex;
@@ -500,7 +500,9 @@ color: #2a81ea;
 .navbar-light{
     color: #50658e;}
 .navbar-light .navbar-nav .nav-link.active{
-    color: #50658e;}
+    color: #50658e;
+}
+/* icons */
 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6,.icon7,.icon8{
     display: inline-block;
     font-size: inherit;
@@ -542,10 +544,11 @@ color: #2a81ea;
     font-size: 19px;
 
 }
-
+/* colors  */
 .browncolor{
     color: #7d92bb;
 }
+/* tags */
 h2 {
     display: block;
     font-size: 1.5em;
@@ -571,6 +574,7 @@ h3{
 ul{
     padding-left: 0;
 }
+/* texts */
 .text1{
     font-size: 3.8rem;
     font-weight: 900;
